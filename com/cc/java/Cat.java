@@ -16,6 +16,7 @@ public Cat(String firstName, String furColor, int age, boolean isFemale) {
     this.isFemale = isFemale;
   }
 
+  
 public String getStringAttributes(String op) {
   switch (op) {
     case "#name":
@@ -27,6 +28,7 @@ public String getStringAttributes(String op) {
   }
 }
 
+
 public String getAge() {
   if (isFemale) {
     return checkEscalationLevel();
@@ -34,7 +36,6 @@ public String getAge() {
     return String.valueOf(age);
   }
 }
-
 
 
 private String checkEscalationLevel() {
