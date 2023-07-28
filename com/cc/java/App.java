@@ -4,12 +4,15 @@ public class App {
     
     public static void main(String[] args) {
 
-        Cat cat = new Cat("Grizabella", "white", 29, true);
+        Cat cat1 = new Cat("Grizabella", "white", 29, true);
 
-        output(cat.getStringAttributes("#name"));
-        output(cat.getStringAttributes("#color"));
+        output(cat1.getStringAttributes("#name"));
+        output(cat1.getStringAttributes("#color"));
 
-        output(cat.getAge());  
+        output(cat1.getAge());  
+        output(cat1.getAge());  
+        output(cat1.getAge()); 
+        output(cat1.getAge()); 
         
 
 
